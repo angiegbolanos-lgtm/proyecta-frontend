@@ -1,0 +1,57 @@
+{
+  "users": [
+    { "id": 1, "name": "Angie Bolaños", "role": "Líder", "avatar": "AB" },
+    { "id": 2, "name": "Carlos Gómez", "role": "Integrante", "avatar": "CG" },
+    { "id": 3, "name": "Laura Sofía", "role": "Integrante", "avatar": "LS" }
+  ],
+  "projects": [
+    {
+      "id": 101,
+      "name": "Plataforma Web de Gestión",
+      "description": "Herramienta centralizada para la organización de proyectos, asignación de tareas y métricas de avance.",
+      "startDate": "2026-03-01",
+      "endDate": "2026-06-15",
+      "category": "Desarrollo Web"
+    },
+    {
+      "id": 102,
+      "name": "Centro de Servicios",
+      "description": "Sistema interactivo para la gestión de citas y atención al cliente en tiempo real.",
+      "startDate": "2026-04-01",
+      "endDate": "2026-07-30",
+      "category": "Sistemas de Información"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 501,
+      "projectId": 101,
+      "title": "Diseñar interfaz responsive",
+      "description": "Maquetar la interfaz gráfica adaptables a dispositivos móviles y pantallas panorámicas.",
+      "status": "EN_PROGRESO",
+      "priority": "ALTA",
+      "assignedTo": 1,
+      "dueDate": "2026-03-20"
+    },
+    {
+      "id": 502,
+      "projectId": 101,
+      "title": "Validación de formularios",
+      "description": "Impedir el registro de datos vacíos, correos inválidos o fechas pasadas.",
+      "status": "PENDIENTE",
+      "priority": "MEDIA",
+      "assignedTo": 2,
+      "dueDate": "2026-03-25"
+    },
+    {
+      "id": 503,
+      "projectId": 102,
+      "title": "Configurar rutas con React Router",
+      "description": "Enlazar vistas de Dashboard, Proyectos y Tareas con estados dinámicos.",
+      "status": "COMPLETADA",
+      "priority": "BAJA",
+      "assignedTo": 3,
+      "dueDate": "2026-03-10"
+    }
+  ]
+}
